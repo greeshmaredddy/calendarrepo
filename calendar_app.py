@@ -12,7 +12,8 @@ class CalendarApp:
         (12, 25): "Christmas Day",
         (12, 31): "New Year's Eve",
     } 
-    
+
+
     def __init__(self):
         self.today = datetime.now()
         self.current_year = self.today.year
